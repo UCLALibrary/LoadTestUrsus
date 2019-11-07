@@ -5,9 +5,11 @@ Steps to install python
 https://docs.python-guide.org/starting/install3/linux/
 
 Locust
-Need python3 for locustio
-locust installations https://docs.locust.io/en/stable/installation.html
-locustio Docs https://docs.locust.io/en/stable/quickstart.html
+Install python3 for locustio
+
+Instructions to install locust are here: https://docs.locust.io/en/stable/installation.html
+
+Docs for locustio:  https://docs.locust.io/en/stable/quickstart.html
 
 On Mac OSX I followed the instructions below:
 
