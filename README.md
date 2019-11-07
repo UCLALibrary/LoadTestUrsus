@@ -2,16 +2,17 @@
 Locust script to load test ursus.library.ucla.edu
 
 Steps to install python 
+
 https://docs.python-guide.org/starting/install3/linux/
 
-Locust
+### Locust
 Install python3 for locustio
 
 Instructions to install locust are here: https://docs.locust.io/en/stable/installation.html
 
 Docs for locustio:  https://docs.locust.io/en/stable/quickstart.html
 
-On Mac OSX I followed the instructions below:
+#### On Mac OSX I followed the instructions below:
 
 1. Install python using pyenv
   Good resource https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/
