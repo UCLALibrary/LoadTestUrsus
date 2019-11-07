@@ -11,7 +11,7 @@ class UserBehavior(TaskSet):
     @task(2)
     def collection(self):
         collections = ['/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Los+Angeles+Daily+News+Negatives','/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Bennett+%28Walter+E.%29+Photographic+Collection%2C+1937-1983+%28bulk+1952-1982%29','/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Connell+%28Will%29+Papers','/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Collection+of+California+Postcards','/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Ethiopic+Manuscripts','/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Arkatov+%28James%29+collection']
-        self.client.get(random.choice(collections))
+        self.client.get(random.choice(collections), name='Collection Page')
 
     @task(2)
     def search(self):
@@ -21,7 +21,7 @@ class UserBehavior(TaskSet):
                        '/catalog?utf8=✓&q=still+image&search_field=all_fields',
                        '/catalog?utf8=✓&q=manuscript&search_field=all_fields',
                        '/catalog?q=piano&search_field=all_fields']
-        self.client.get(random.choice(search_terms))
+        self.client.get(random.choice(search_terms), name='Search keyword')
 
     @task(2)
     def facet(self):
@@ -31,7 +31,7 @@ class UserBehavior(TaskSet):
                       '/catalog?f%5Bnamed_subject_sim%5D%5B%5D=Wright%2C+Paul+A.',
                       '/catalog?f%5Blocation_sim%5D%5B%5D=California',
                       '/catalog?utf8=✓&search_field=dummy_range&range%5Byear_isim%5D%5Bbegin%5D=1960&range%5Byear_isim%5D%5Bend%5D=2007&commit=Limit']
-        self.client.get(random.choice(facet_term))
+        self.client.get(random.choice(facet_term), name='Browse Facets')
 
     @task(2)
     def view(self):
@@ -40,7 +40,7 @@ class UserBehavior(TaskSet):
                      '/catalog/gsqg5200zz-89112',
                      '/catalog/24wg5200zz-89112',
                      '/catalog/mt2w6200zz-89112']
-        self.client.get(random.choice(view_term))
+        self.client.get(random.choice(view_term), name='View Record')
 
     @task(1)
     def about(self):
