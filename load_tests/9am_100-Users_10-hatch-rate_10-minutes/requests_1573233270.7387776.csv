@@ -1,0 +1,8 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"GET","/",1566,0,210,269,170,5158,23805,2.47
+"GET","/about",521,0,170,262,136,5209,17005,0.82
+"GET","Browse Facets",1035,0,280,357,225,5103,52580,1.63
+"GET","Collection Page",1023,0,300,394,234,5324,57202,1.62
+"GET","Search keyword",974,0,270,364,192,5323,46613,1.54
+"GET","View Record",1038,0,210,284,164,5222,19810,1.64
+"None","Aggregated",6157,0,250,322,136,5324,36550,9.73
