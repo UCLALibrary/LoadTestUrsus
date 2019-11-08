@@ -1,7 +1,7 @@
 # LoadTestUrsus
 Locust script to load test ursus.library.ucla.edu
 
-Steps to install python 
+Steps to install python
 
 https://docs.python-guide.org/starting/install3/linux/
 
@@ -19,7 +19,7 @@ Docs for locustio:  https://docs.locust.io/en/stable/quickstart.html
 
 2. create a virtual environment to run python
  pyenv virtualenv 3.6.0 my-virtual-env-3.6.0
- 
+
 3. clone this repo
 
 4. cd LoadTestUrsus
@@ -37,3 +37,11 @@ Docs for locustio:  https://docs.locust.io/en/stable/quickstart.html
 9. Run the locust script from this repo
 
 10. locust -f locust_ursus.py --host http://ursus.library.ucla.edu
+
+
+11. Go to http://localhost:8089/
+
+12. Set User rates 100/10 | 300/10 | 600/50 |1000/100
+
+13. Gather the data
+
