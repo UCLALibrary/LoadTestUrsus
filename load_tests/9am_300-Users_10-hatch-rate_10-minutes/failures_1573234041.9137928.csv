@@ -1,0 +1,24 @@
+"Method","Name","Error","Occurrences"
+"GET","Browse Facets","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bsubject_sim%5D%5B%5D=Crime",3
+"GET","View Record","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog/mt2w6200zz-89112",1
+"GET","Search keyword","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?utf8=%E2%9C%93&q=manuscript&search_field=all_fields",4
+"GET","Browse Facets","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bgenre_sim%5D%5B%5D=cellulose+nitrate+film",3
+"GET","/about","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/about",4
+"GET","View Record","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog/24wg5200zz-89112",1
+"GET","Collection Page","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Ethiopic+Manuscripts",2
+"GET","Search keyword","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?utf8=%E2%9C%93&q=poppy&search_field=all_fields",1
+"GET","/","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/",22
+"GET","Browse Facets","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bhuman_readable_resource_type_sim%5D%5B%5D=text",3
+"GET","Collection Page","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Connell+%28Will%29+Papers",1
+"GET","Search keyword","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?utf8=%E2%9C%93&q=bennett&search_field=all_fields",1
+"GET","Search keyword","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?utf8=%E2%9C%93&q=los+angeles&search_field=all_fields",2
+"GET","View Record","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog/fm2q1000zz-89112",2
+"GET","Browse Facets","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bnamed_subject_sim%5D%5B%5D=Wright%2C+Paul+A.",1
+"GET","Browse Facets","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Blocation_sim%5D%5B%5D=California",1
+"GET","View Record","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog/gsqg5200zz-89112",5
+"GET","Collection Page","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Bennett+%28Walter+E.%29+Photographic+Collection%2C+1937-1983+%28bulk+1952-1982%29",2
+"GET","Search keyword","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?utf8=%E2%9C%93&q=still+image&search_field=all_fields",1
+"GET","Collection Page","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Los+Angeles+Daily+News+Negatives",2
+"GET","View Record","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog/nj2bh100zz-89112",2
+"GET","Collection Page","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Collection+of+California+Postcards",5
+"GET","Browse Facets","503 Server Error: Service Unavailable for url: https://ursus.library.ucla.edu/catalog?utf8=%E2%9C%93&search_field=dummy_range&range%5Byear_isim%5D%5Bbegin%5D=1960&range%5Byear_isim%5D%5Bend%5D=2007&commit=Limit",1
